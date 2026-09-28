@@ -1,0 +1,32 @@
+{
+  "name": "Audion Companion",
+  "safe_name": "audion-companion",
+  "version": "1.0.0",
+  "description": "All-in-one companion plugin for Audion featuring a music stream resolver, real-time canvas visualizer, sleep timer, and scrobbler analytics.",
+  "author": "Kesavaraj",
+  "type": "js",
+  "entry": "index.js",
+  "permissions": [
+    "player:read",
+    "player:control",
+    "library:read",
+    "library:write",
+    "ui:inject",
+    "storage:local",
+    "network:fetch",
+    "system:notify"
+  ],
+  "category": "utility",
+  "tags": [
+    "visualizer",
+    "streaming",
+    "resolver",
+    "sleep-timer",
+    "scrobbler",
+    "utility"
+  ],
+  "homepage": "https://github.com/kesavarajsamipillai/audion-companion",
+  "repo": "https://github.com/kesavarajsamipillai/audion-companion",
+  "repository": "https://github.com/kesavarajsamipillai/audion-companion",
+  "license": "MIT"
+}
